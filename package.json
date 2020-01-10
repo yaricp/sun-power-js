@@ -1,28 +1,28 @@
 {
-  "name": "sun-power-js",
+  "name": "sun-babylon",
   "version": "1.0.0",
-  "description": "tool for calculation of solar power on faces of buildings",
-  "main": "index.js",
+  "description": "",
+  "main": "main.js",
   "dependencies": {
-    "icosphere": "^1.0.0",
-    "suncalc": "^1.8.0"
+    "axios": "^0.19.1",
+    "babylonjs": "^4.0.3",
+    "concurrently": "^5.0.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-node": "^11.0.0",
+    "http-server": "^0.12.1",
+    "sleep-ms": "^2.0.1",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack": "^4.41.5"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babylonjs/core": "^4.0.3",
+    "@babylonjs/materials": "^4.0.3"
+  },
   "scripts": {
-    "test": "npm test"
+    "test": "test",
+    "dev": "webpack-dev-server"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/yaricp/sun-power-js.git"
-  },
-  "keywords": [
-    "solar",
-    "power"
-  ],
-  "author": "Pisarev Yaroslav",
-  "license": "BSD-2-Clause",
-  "bugs": {
-    "url": "https://github.com/yaricp/sun-power-js/issues"
-  },
-  "homepage": "https://github.com/yaricp/sun-power-js#readme"
+  "author": "yaricp@gmail.com",
+  "license": "ISC"
 }
