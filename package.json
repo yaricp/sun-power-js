@@ -5,7 +5,7 @@
   "main": "main.js",
   "dependencies": {
     "@babylonjs/loaders": "^4.0.3",
-    "axios": "^0.19.1",
+    "axios": "^0.21.1",
     "babylonjs": "^4.0.3",
     "babylonjs-loaders": "^4.0.3",
     "concurrently": "^5.0.2",
